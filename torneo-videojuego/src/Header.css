@@ -1,0 +1,25 @@
+.header {
+    background: #0d0d0d;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 3px solid #04e100;
+    box-shadow: 0 0 20px rgba(86, 225, 0, 0.5);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #ff0404;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(225, 6, 0, 0.8);
+}
+
+.header p {
+    margin: 8px 0 0;
+    color: #bdbdbd;
+    font-size: 14px;
+    letter-spacing: 2px;
+}

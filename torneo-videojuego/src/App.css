@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #050505;
+
+    background-image:
+        linear-gradient(
+            rgba(57, 255, 20, 0.03) 1px,
+            transparent 1px
+        );
+
+    background-size: 100% 4px;
+}
+
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
